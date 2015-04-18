@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C35D97D71AE2234300C23BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97D61AE2234300C23BDA /* Foundation.framework */; };
+		C35D97D91AE2234300C23BDA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97D81AE2234300C23BDA /* CoreFoundation.framework */; };
+		C35D97DB1AE2234300C23BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97DA1AE2234300C23BDA /* UIKit.framework */; };
+		C35D97DD1AE2234300C23BDA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97DC1AE2234300C23BDA /* MobileCoreServices.framework */; };
+		C35D97DF1AE2234300C23BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97DE1AE2234300C23BDA /* CoreGraphics.framework */; };
+		C35D97E11AE2234300C23BDA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97E01AE2234300C23BDA /* SystemConfiguration.framework */; };
+		C35D97E31AE2234300C23BDA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97E21AE2234300C23BDA /* AudioToolbox.framework */; };
+		C35D97E51AE2234300C23BDA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97E41AE2234300C23BDA /* CFNetwork.framework */; };
+		C35D97E71AE2234300C23BDA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97E61AE2234300C23BDA /* QuartzCore.framework */; };
+		C35D97E91AE2234300C23BDA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97E81AE2234300C23BDA /* OpenGLES.framework */; };
+		C35D97EB1AE2234300C23BDA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97EA1AE2234300C23BDA /* CoreLocation.framework */; };
+		C35D97ED1AE2234300C23BDA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97EC1AE2234300C23BDA /* CoreMedia.framework */; };
+		C35D97EF1AE2234300C23BDA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97EE1AE2234300C23BDA /* CoreVideo.framework */; };
+		C35D97F11AE2234300C23BDA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97F01AE2234300C23BDA /* AVFoundation.framework */; };
+		C35D97F31AE2234300C23BDA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D97F21AE2234300C23BDA /* Security.framework */; };
+		C35D98021AE2234300C23BDA /* UUIDAne.h in Headers */ = {isa = PBXBuildFile; fileRef = C35D98011AE2234300C23BDA /* UUIDAne.h */; };
+		C35D98041AE2234300C23BDA /* UUIDAne.m in Sources */ = {isa = PBXBuildFile; fileRef = C35D98031AE2234300C23BDA /* UUIDAne.m */; };
+		C35D98151AE2238900C23BDA /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C35D98141AE2238900C23BDA /* FlashRuntimeExtensions.h */; };
+		C3AAA0CB1AE29D0D00CCF52B /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AAA0C71AE29D0D00CCF52B /* SSKeychain.h */; };
+		C3AAA0CC1AE29D0D00CCF52B /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AAA0C81AE29D0D00CCF52B /* SSKeychain.m */; };
+		C3AAA0CD1AE29D0D00CCF52B /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AAA0C91AE29D0D00CCF52B /* SSKeychainQuery.h */; };
+		C3AAA0CE1AE29D0D00CCF52B /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AAA0CA1AE29D0D00CCF52B /* SSKeychainQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C35D97FA1AE2234300C23BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35D97CB1AE2234300C23BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35D97D21AE2234300C23BDA;
+			remoteInfo = UUIDAne;
+		};
+		C35D97FC1AE2234300C23BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35D97CB1AE2234300C23BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35D97F51AE2234300C23BDA;
+			remoteInfo = UUIDAne.ane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C35D97D31AE2234300C23BDA /* libUUIDAne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUUIDAne.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35D97D61AE2234300C23BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C35D97D81AE2234300C23BDA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C35D97DA1AE2234300C23BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C35D97DC1AE2234300C23BDA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C35D97DE1AE2234300C23BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C35D97E01AE2234300C23BDA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C35D97E21AE2234300C23BDA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C35D97E41AE2234300C23BDA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C35D97E61AE2234300C23BDA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C35D97E81AE2234300C23BDA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C35D97EA1AE2234300C23BDA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C35D97EC1AE2234300C23BDA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C35D97EE1AE2234300C23BDA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C35D97F01AE2234300C23BDA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C35D97F21AE2234300C23BDA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C35D97F61AE2234300C23BDA /* UUIDAne.ane */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = UUIDAne.ane; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35D97F91AE2234300C23BDA /* DebugUUIDAneAIRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugUUIDAneAIRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35D98001AE2234300C23BDA /* UUIDAne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUIDAne-Prefix.pch"; sourceTree = "<group>"; };
+		C35D98011AE2234300C23BDA /* UUIDAne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUIDAne.h; sourceTree = "<group>"; };
+		C35D98031AE2234300C23BDA /* UUIDAne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUIDAne.m; sourceTree = "<group>"; };
+		C35D98051AE2234300C23BDA /* extension.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = extension.xml; sourceTree = "<group>"; };
+		C35D98061AE2234300C23BDA /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		C35D98071AE2234300C23BDA /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
+		C35D98081AE2234300C23BDA /* debugIPA.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = debugIPA.sh; sourceTree = "<group>"; };
+		C35D98141AE2238900C23BDA /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = "../../../../../../../../../Applications/Adobe Flash Builder 4.7/eclipse/plugins/com.adobe.flash.compiler_4.7.0.349722/AIRSDK/include/FlashRuntimeExtensions.h"; sourceTree = "<group>"; };
+		C3AAA0C51AE29D0D00CCF52B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSKeychain.strings; sourceTree = "<group>"; };
+		C3AAA0C61AE29D0D00CCF52B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3AAA0C71AE29D0D00CCF52B /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		C3AAA0C81AE29D0D00CCF52B /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		C3AAA0C91AE29D0D00CCF52B /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		C3AAA0CA1AE29D0D00CCF52B /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35D97D01AE2234300C23BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35D97ED1AE2234300C23BDA /* CoreMedia.framework in Frameworks */,
+				C35D97F31AE2234300C23BDA /* Security.framework in Frameworks */,
+				C35D97D91AE2234300C23BDA /* CoreFoundation.framework in Frameworks */,
+				C35D97EB1AE2234300C23BDA /* CoreLocation.framework in Frameworks */,
+				C35D97DD1AE2234300C23BDA /* MobileCoreServices.framework in Frameworks */,
+				C35D97EF1AE2234300C23BDA /* CoreVideo.framework in Frameworks */,
+				C35D97E51AE2234300C23BDA /* CFNetwork.framework in Frameworks */,
+				C35D97DB1AE2234300C23BDA /* UIKit.framework in Frameworks */,
+				C35D97DF1AE2234300C23BDA /* CoreGraphics.framework in Frameworks */,
+				C35D97E91AE2234300C23BDA /* OpenGLES.framework in Frameworks */,
+				C35D97E31AE2234300C23BDA /* AudioToolbox.framework in Frameworks */,
+				C35D97E11AE2234300C23BDA /* SystemConfiguration.framework in Frameworks */,
+				C35D97D71AE2234300C23BDA /* Foundation.framework in Frameworks */,
+				C35D97F11AE2234300C23BDA /* AVFoundation.framework in Frameworks */,
+				C35D97E71AE2234300C23BDA /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C35D97CA1AE2234300C23BDA = {
+			isa = PBXGroup;
+			children = (
+				C3AAA0C31AE29D0D00CCF52B /* SSKeychain */,
+				C35D97FE1AE2234300C23BDA /* UUIDAne */,
+				C35D97D51AE2234300C23BDA /* Frameworks */,
+				C35D97D41AE2234300C23BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C35D97D41AE2234300C23BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35D97D31AE2234300C23BDA /* libUUIDAne.a */,
+				C35D97F61AE2234300C23BDA /* UUIDAne.ane */,
+				C35D97F91AE2234300C23BDA /* DebugUUIDAneAIRApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35D97D51AE2234300C23BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35D97D61AE2234300C23BDA /* Foundation.framework */,
+				C35D97D81AE2234300C23BDA /* CoreFoundation.framework */,
+				C35D97DA1AE2234300C23BDA /* UIKit.framework */,
+				C35D97DC1AE2234300C23BDA /* MobileCoreServices.framework */,
+				C35D97DE1AE2234300C23BDA /* CoreGraphics.framework */,
+				C35D97E01AE2234300C23BDA /* SystemConfiguration.framework */,
+				C35D97E21AE2234300C23BDA /* AudioToolbox.framework */,
+				C35D97E41AE2234300C23BDA /* CFNetwork.framework */,
+				C35D97E61AE2234300C23BDA /* QuartzCore.framework */,
+				C35D97E81AE2234300C23BDA /* OpenGLES.framework */,
+				C35D97EA1AE2234300C23BDA /* CoreLocation.framework */,
+				C35D97EC1AE2234300C23BDA /* CoreMedia.framework */,
+				C35D97EE1AE2234300C23BDA /* CoreVideo.framework */,
+				C35D97F01AE2234300C23BDA /* AVFoundation.framework */,
+				C35D97F21AE2234300C23BDA /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35D97FE1AE2234300C23BDA /* UUIDAne */ = {
+			isa = PBXGroup;
+			children = (
+				C35D98141AE2238900C23BDA /* FlashRuntimeExtensions.h */,
+				C35D98011AE2234300C23BDA /* UUIDAne.h */,
+				C35D98031AE2234300C23BDA /* UUIDAne.m */,
+				C35D97FF1AE2234300C23BDA /* Supporting Files */,
+			);
+			path = UUIDAne;
+			sourceTree = "<group>";
+		};
+		C35D97FF1AE2234300C23BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C35D98001AE2234300C23BDA /* UUIDAne-Prefix.pch */,
+				C35D98051AE2234300C23BDA /* extension.xml */,
+				C35D98061AE2234300C23BDA /* platformoptions.xml */,
+				C35D98071AE2234300C23BDA /* generateANE.sh */,
+				C35D98081AE2234300C23BDA /* debugIPA.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3AAA0C31AE29D0D00CCF52B /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				C3AAA0C41AE29D0D00CCF52B /* SSKeychain.strings */,
+				C3AAA0C61AE29D0D00CCF52B /* Info.plist */,
+				C3AAA0C71AE29D0D00CCF52B /* SSKeychain.h */,
+				C3AAA0C81AE29D0D00CCF52B /* SSKeychain.m */,
+				C3AAA0C91AE29D0D00CCF52B /* SSKeychainQuery.h */,
+				C3AAA0CA1AE29D0D00CCF52B /* SSKeychainQuery.m */,
+			);
+			name = SSKeychain;
+			path = "../../sskeychain-master/SSKeychain";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C35D97D11AE2234300C23BDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35D98151AE2238900C23BDA /* FlashRuntimeExtensions.h in Headers */,
+				C3AAA0CB1AE29D0D00CCF52B /* SSKeychain.h in Headers */,
+				C35D98021AE2234300C23BDA /* UUIDAne.h in Headers */,
+				C3AAA0CD1AE29D0D00CCF52B /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C35D97D21AE2234300C23BDA /* UUIDAne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35D980B1AE2234300C23BDA /* Build configuration list for PBXNativeTarget "UUIDAne" */;
+			buildPhases = (
+				C35D97CF1AE2234300C23BDA /* Sources */,
+				C35D97D01AE2234300C23BDA /* Frameworks */,
+				C35D97D11AE2234300C23BDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UUIDAne;
+			productName = UUIDAne;
+			productReference = C35D97D31AE2234300C23BDA /* libUUIDAne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C35D97F51AE2234300C23BDA /* UUIDAne.ane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35D980E1AE2234300C23BDA /* Build configuration list for PBXNativeTarget "UUIDAne.ane" */;
+			buildPhases = (
+				C35D97F41AE2234300C23BDA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35D97FB1AE2234300C23BDA /* PBXTargetDependency */,
+			);
+			name = UUIDAne.ane;
+			productName = UUIDAne.ane;
+			productReference = C35D97F61AE2234300C23BDA /* UUIDAne.ane */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C35D97F81AE2234300C23BDA /* DebugUUIDAneAIRApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35D98111AE2234300C23BDA /* Build configuration list for PBXNativeTarget "DebugUUIDAneAIRApp" */;
+			buildPhases = (
+				C35D97F71AE2234300C23BDA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35D97FD1AE2234300C23BDA /* PBXTargetDependency */,
+			);
+			name = DebugUUIDAneAIRApp;
+			productName = DebugUUIDAneAIRApp;
+			productReference = C35D97F91AE2234300C23BDA /* DebugUUIDAneAIRApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35D97CB1AE2234300C23BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					C35D97D21AE2234300C23BDA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C35D97F51AE2234300C23BDA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C35D97F81AE2234300C23BDA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = C35D97CE1AE2234300C23BDA /* Build configuration list for PBXProject "UUIDAne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C35D97CA1AE2234300C23BDA;
+			productRefGroup = C35D97D41AE2234300C23BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35D97D21AE2234300C23BDA /* UUIDAne */,
+				C35D97F51AE2234300C23BDA /* UUIDAne.ane */,
+				C35D97F81AE2234300C23BDA /* DebugUUIDAneAIRApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C35D97F41AE2234300C23BDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t";
+		};
+		C35D97F71AE2234300C23BDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35D97CF1AE2234300C23BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35D98041AE2234300C23BDA /* UUIDAne.m in Sources */,
+				C3AAA0CE1AE29D0D00CCF52B /* SSKeychainQuery.m in Sources */,
+				C3AAA0CC1AE29D0D00CCF52B /* SSKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C35D97FB1AE2234300C23BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35D97D21AE2234300C23BDA /* UUIDAne */;
+			targetProxy = C35D97FA1AE2234300C23BDA /* PBXContainerItemProxy */;
+		};
+		C35D97FD1AE2234300C23BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35D97F51AE2234300C23BDA /* UUIDAne.ane */;
+			targetProxy = C35D97FC1AE2234300C23BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3AAA0C41AE29D0D00CCF52B /* SSKeychain.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3AAA0C51AE29D0D00CCF52B /* en */,
+			);
+			name = SSKeychain.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C35D98091AE2234300C23BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/sdk/include/;
+			};
+			name = Debug;
+		};
+		C35D980A1AE2234300C23BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/sdk/include/;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C35D980C1AE2234300C23BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UUIDAne.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UUIDAne/UUIDAne-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C35D980D1AE2234300C23BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UUIDAne.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UUIDAne/UUIDAne-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C35D980F1AE2234300C23BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/sdk;
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				GCC_VERSION = "";
+				NATIVEEXTENSION_SWC = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/uuidAne/UUIDAneLib/bin/UUIDAneLib.swc;
+				PRODUCT_NAME = UUIDAne;
+			};
+			name = Debug;
+		};
+		C35D98101AE2234300C23BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/sdk;
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				GCC_VERSION = "";
+				NATIVEEXTENSION_SWC = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/uuidAne/UUIDAneLib/bin/UUIDAneLib.swc;
+				PRODUCT_NAME = UUIDAne;
+			};
+			name = Release;
+		};
+		C35D98121AE2234300C23BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/sdk;
+				NATIVEEXTENSION_SWC = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/webviewtest/WebViewANELib/bin;
+				PRODUCT_NAME = DebugUUIDAneAIRApp;
+			};
+			name = Debug;
+		};
+		C35D98131AE2234300C23BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/sdk;
+				NATIVEEXTENSION_SWC = /Users/jiashanlin/Desktop/jsl/workspace/ios_workspace/webviewtest/WebViewANELib/bin;
+				PRODUCT_NAME = DebugUUIDAneAIRApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35D97CE1AE2234300C23BDA /* Build configuration list for PBXProject "UUIDAne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35D98091AE2234300C23BDA /* Debug */,
+				C35D980A1AE2234300C23BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35D980B1AE2234300C23BDA /* Build configuration list for PBXNativeTarget "UUIDAne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35D980C1AE2234300C23BDA /* Debug */,
+				C35D980D1AE2234300C23BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35D980E1AE2234300C23BDA /* Build configuration list for PBXNativeTarget "UUIDAne.ane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35D980F1AE2234300C23BDA /* Debug */,
+				C35D98101AE2234300C23BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35D98111AE2234300C23BDA /* Build configuration list for PBXNativeTarget "DebugUUIDAneAIRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35D98121AE2234300C23BDA /* Debug */,
+				C35D98131AE2234300C23BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35D97CB1AE2234300C23BDA /* Project object */;
+}
